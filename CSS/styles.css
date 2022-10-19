@@ -1,0 +1,16 @@
+/*
+esto es un comentario
+*/
+/*  todos los h1 del documento los selecciona(solo debe haber 1)*/
+h1 {
+    color: blue;
+}
+
+ /* ESTRUCTURA DE SELECCION/CSS:
+ selector {
+    atributo:valor;
+ }
+ */
+ h2{
+    font-size: 45px;
+ }
