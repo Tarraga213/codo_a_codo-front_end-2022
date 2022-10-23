@@ -1,9 +1,12 @@
-/*
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+ /*
 esto es un comentario
 */
 /*  todos los h1 del documento los selecciona(solo debe haber 1)*/
+/*selector por tipo*/
 h1 {
-    color: blue;
+    color:blue;
 }
 
  /* ESTRUCTURA DE SELECCION/CSS:
@@ -11,6 +14,57 @@ h1 {
     atributo:valor;
  }
  */
- h2{
+ h2 {
+   color:rgb(100,50,10);
     font-size: 45px;
  }
+ p {
+   /*color en hexadecimal*/
+   color: #44a;
+ }
+ /* selector por ID: el q posee id le gana al q no*/
+#parrafoAzul {
+   color: blue;
+   font-family: 'Silkscreen', cursive;
+}
+/*selector por clase: punto(.)seguido del nombre*/
+.claseParrafoAzul{
+color: cadetblue;
+}
+
+.caja {
+   background-color: aqua;
+   /*height: 100px;*/
+   font-size: 16px;
+}
+
+.caja p {
+   color: black;
+}
+
+.textoItalic {
+   font-style: italic;
+}
+
+.textoBold {
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+}
+
+/*de fuente externa*/
+* {
+   font-family: 'Roboto', sans-serif;
+}
+
+/*colores*/
+/*RGB (red, green, blue)*/
+/*RGB(0,0,0)*/
+/*RGB(100,58,10)*/
+/*RGB(255,255,255)*/
+
+
+/*rgb + alpha (0 - 1)*/
+p.colorAlpha {
+   font-size: 30px;
+   color: rgb(5, 175,200,1);
+}

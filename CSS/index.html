@@ -4,18 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TP Nº6_CSS</title>
     
-    <!-- hoja de estilo externo-->
+    <!-- hoja de estilo externo: contiene un archivo-->
     <link href="styles.css" rel="stylesheet">
+    
+    <!--interna:etiqueta style, dentro del html-->
+    <style>
+        /* todo lo q esta aca debe ser en CSS */
+        
+        /* selector universal: quitar los margenes
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        */
+        h1 {
+            color: yellow;
+        }
+    </style>
 </head>
-<style>
-
-</style>
+    
 <body>
-    <!--inline-->
-    <h1 style="color:aqua">Clase6 CSS</h1>
-    <h2>Soy un subtitulo</h2>
+    <main>
+        <section> 
+            <!--inline: le gana al interno y externo-->
+            <h1 style="color:aqua">Clase6 CSS</h1>
+            <h2>Soy un subtitulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem alias, tempore rem molestias molestiae fugiat, nulla similique, nostrum ducimus dolores? Consectetur omnis iure cum. Neque a consectetur corporis aut?</p>
+            <p id="parrafoAzul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem alias, tempore rem molestias molestiae fugiat, nulla similique, nostrum ducimus dolores? Consectetur omnis iure cum. Neque a consectetur corporis aut?</p>
+            <p class="claseParrafoAzul">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, quisquam perferendis? Exercitationem rem aperiam voluptatum dolores est aliquam. Dolorum molestiae dicta omnis illo sint repellendus adipisci quo unde neque perspiciatis!</p>
+        </section>
+    <br>
+    <section>
+        <div class="caja">
+            <h3>Sub título 3</h3>
+            <p class="textoBold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quisquam, nisi quibusdam quae vitae incidunt quos consequatur excepturi modi. Voluptates quaerat error quo. Voluptas, asperiores aut numquam reiciendis eos dignissimos!</p>
+            <p class="textoItalic">Lorem <i>ipsun</i> dolor sit, amet consectetur adipisicing elit. Sunt delectus necessitatibus id, molestias corporis nobis assumenda fugiat doloribus facere dolores cumque tempora omnis nisi pariatur atque sapiente non reiciendis cum!</p>
+        </div>
+    </section>
 
+    <section>
+        <p class="textoItalic textoBold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, exercitationem? Maxime, consequatur sapiente voluptate velit ab eos dicta eveniet neque debitis asperiores minima amet nihil! Praesentium sint rem perferendis rerum!</p>
+        <p class="color">Soy un text with color en #hexa prro</p>
+        <p class="colorAlpha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero commodi dolore autem dolorum totam ipsa quam ullam porro. Placeat deleniti aspernatur repudiandae ipsum perferendis delectus recusandae necessitatibus quae voluptatibus?</p>
+    </section>
+    </main>
 </body>
 </html>
